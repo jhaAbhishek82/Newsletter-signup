@@ -36,7 +36,7 @@ app.post("/" , function(req , res){
 
      const options = {
        method:"POST",
-       auth: "Abhishek:92ea35e5d77dd4d6dd5dd9d2350147ec-us10"
+       auth: "Abhishek:Api key"
      }
      const request = https.request(url, options, function(response){
        if(response.statusCode===200){
@@ -62,5 +62,4 @@ app.post("/failure", function(req, res){
 app.listen( 3000, function(){
     console.log("Server is running on port 3000.");
 });
-// 92ea35e5d77dd4d6dd5dd9d2350147ec-us10
-//e7a1034313
+
